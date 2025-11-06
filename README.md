@@ -11,6 +11,7 @@ To align with the subscription model introduced in 2025, the goal is to get an a
 
 ## Notes
 
+* This is not an official SUSE repository or project.  It *does* follow the practices SUSE recommends and references the Rancherlabs Support Tools for the container overview.
 * Inspection of Bare Metal results is recommended. Intel Hyper-Threading and AMT Simultaneous Multithreading (SMT) have become ubiquitous, and the core density is not easily determined. Therefore, it is recommended to review the actual CPU model and determine how many cores are possible, followed by confirmation that all cores are available (system configuration may not have the functionality enabled)
 * If the data you discover does not seem to align with what you were expecting to see, please feel free to call out the discrepancies and we can talk through them.
 * If you anticipate changes in the upcoming renewal cycle that would change the vCPU/Core count, please bring that to our attention.
