@@ -1,4 +1,8 @@
-# README
+# Rancher Inventory 
+
+This repo provides additional context and details around the official RancherLabs Systems Information v2 script(s)
+
+https://github.com/rancherlabs/support-tools/tree/master/collection/rancher/v2.x/systems-information-v2
 
 # Objective
 
