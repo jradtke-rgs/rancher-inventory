@@ -1,6 +1,6 @@
 # Rancher Inventory 
 
-This repo provides additional context and details around the official RancherLabs Systems Information v2 script(s)
+This (unofficial) repo provides additional context and details around the official RancherLabs Systems Information v2 script(s) (RancherLab scripts are from the official repo)
 
 https://github.com/rancherlabs/support-tools/tree/master/collection/rancher/v2.x/systems-information-v2
 
@@ -8,6 +8,7 @@ https://github.com/rancherlabs/support-tools/tree/master/collection/rancher/v2.x
 
 The goal is to get an accurate detailed overview of the compute resources dedicated to the Kubernetes environment managed by Rancher.  This information will ensure that the optimal subscription allocation is created to ensure cost-optimization for this coverage.
 
+- The script does a simple comparison of labels (i.e. worker vs control-plane/etcd) - if you are hosting your user-applications on your control-plane nodes, you will need to figure out where that is applicable to gather an accurate inventory.
 - For bare metal/physical nodes: determine how many sockets/cores.  
 - For virtual machines: vCPU count and node-role (and what hypervisor is hosting the vCPU).  
 - Identify the kubernetes role (control-plane vs worker) for each of the systems.  
