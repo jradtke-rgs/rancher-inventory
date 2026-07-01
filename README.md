@@ -6,7 +6,7 @@ https://github.com/rancherlabs/support-tools/tree/master/collection/rancher/v2.x
 
 # Objective
 
-The goal is to get an accurate detailed overview of the compute resources dedicated to the Kubernetes environment managed by Rancher.  This information will ensure that the optimal subscription allocation is created to ensure cost-optimization for this coverage.
+The goal is to get an accurate detailed overview of the compute resources dedicated to the Kubernetes environment managed by Rancher.  This information will ensure that the optimal subscription allocation is created to ensure cost-optimization for this coverage.  This is NOT an audit tool - instead it provides a way to retrieve and display data regarding what is being managed by Rancher Manager.
 
 - The script does a simple comparison of labels (i.e. worker vs control-plane/etcd) - if you are hosting your user-applications on your control-plane nodes, you will need to figure out where that is applicable to gather an accurate inventory.
 - For bare metal/physical nodes: determine how many sockets/cores.  
